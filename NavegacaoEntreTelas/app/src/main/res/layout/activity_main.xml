@@ -13,7 +13,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewReferencias"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginStart="50dp"
         tools:listitem="@layout/carro_item"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
@@ -31,9 +30,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/editTextIdDelete"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_baseline_edit_24"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/floatingAdd"
         android:layout_margin="20dp"
-        android:src="@drawable/ic_baseline_edit_24"/>
+        android:src="@drawable/ic_baseline_delete_24"
+        />
 
     <EditText
         android:id="@+id/editTextID"
@@ -41,6 +50,17 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@id/floatingEdit"
         app:layout_constraintStart_toStartOf="@id/floatingEdit"
+        android:ems="3"
+        android:hint="ID"
+        android:textAlignment="center"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editTextIdDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/floatingDelete"
+        app:layout_constraintStart_toStartOf="@id/floatingDelete"
         android:ems="3"
         android:hint="ID"
         android:textAlignment="center"

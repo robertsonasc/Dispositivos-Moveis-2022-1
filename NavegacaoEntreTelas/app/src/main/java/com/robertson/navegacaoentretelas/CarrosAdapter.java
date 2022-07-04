@@ -1,5 +1,6 @@
 package com.robertson.navegacaoentretelas;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,7 @@ import java.util.ArrayList;
 public class CarrosAdapter extends RecyclerView.Adapter<CarrosAdapter.CarroViewholder>{
 
     private final ArrayList<Carro> carros;
+    private static final String TAG = "linhaCarrosAdapter";
 
     public CarrosAdapter(ArrayList<Carro> arrayCarros) {
         this.carros = arrayCarros;

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "673640956150",
+    "project_id": "navegacao-entre-telas",
+    "storage_bucket": "navegacao-entre-telas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673640956150:android:21559d4ff74c1dcaedacd7",
+        "android_client_info": {
+          "package_name": "com.robertson.navegacaoentretelas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673640956150-hfvedfga15dkcci1mrvb51tjlsdp8129.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5sua-_wLVPNsTVMefgRRYC7K0Bmq-Roo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673640956150-hfvedfga15dkcci1mrvb51tjlsdp8129.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
